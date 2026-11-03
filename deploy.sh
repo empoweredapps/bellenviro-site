@@ -3,9 +3,6 @@
 REPO=$HOME/repositories/bellenviro-site
 DEST=$HOME/public_html/bellenviro.au
 cd "$REPO" || exit 1
-git fetch -q origin main
-if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]; then
-  git reset -q --hard origin/main
-  cp -R "$REPO/site/." "$DEST/"
-  echo "$(date '+%F %T') deployed $(git rev-parse --short HEAD)" >> "$REPO/deploy.log"
-fi
+BEFORE=$(git rev-parse HEAD); git pull -q origin main; [ "$BEFORE" = "$(git rev-parse HEAD)" ] && exit 0
+cp -R "$REPO/site/." "$DEST/"
+echo "$(date '+%F %T') deployed $(git rev-parse --short HEAD)" >> "$REPO/deploy.log"
