@@ -31,6 +31,7 @@ def layout(path, title, desc, body, extra_ld=None, nav_active=None):
     lds = [dict(ORG, **{"@context":"https://schema.org"})] if path=="/" else []
     if extra_ld: lds += extra_ld
     svc_links = "".join(f'<li><a href="/services/{s["slug"]}/">{esc(s["nav"])}</a></li>' for s in SERVICES)
+    gd_links = "".join(f'<li><a href="/guides/{g["slug"]}/">{esc(g["title"])}</a></li>' for g in GUIDES)
     reg_links = "".join(f'<li><a href="/regions/{r["slug"]}/">{esc(r["nav"])}</a></li>' for r in REGIONS)
     return f"""<!DOCTYPE html>
 <html lang="en-AU">
@@ -58,7 +59,7 @@ def layout(path, title, desc, body, extra_ld=None, nav_active=None):
    <ul>
     <li class="dd"><a href="/services/">Services</a><ul>{svc_links}</ul></li>
     <li class="dd"><a href="/regions/">Regions</a><ul>{reg_links}</ul></li>
-    <li><a href="/guides/">Guides</a></li>
+    <li class="dd"><a href="/guides/">Guides</a><ul>{gd_links}</ul></li>
     <li><a href="/about/">About</a></li>
     <li><a class="btn" href="/contact/">Get a quote</a></li>
    </ul>
