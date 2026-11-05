@@ -199,7 +199,7 @@ REGIONS = [
   h1="The Top End",
   desc="Remote-capable environmental consultant for the Top End: Katherine, Kakadu and Jabiru, West and East Arnhem Land, Nhulunbuy, the Tiwi Islands, Daly River and the Victoria River district.",
   places="Katherine and the Katherine region, Pine Creek and Adelaide River, Kakadu and Jabiru, West Arnhem including Maningrida and Gunbalanya, East Arnhem including Nhulunbuy and Galiwin'ku, the Tiwi Islands, Wadeye and the Daly, Timber Creek and the Victoria River district.",
-  body="Remote Top End jobs fail on logistics, not science. Bell Enviro has done the compliance auditing and CEMP implementation for water and distribution upgrades in Jabiru and is set up for remote work: self-contained field kit, sample cold chain back to the Darwin labs, and the permits and inductions that Aboriginal land and Kakadu need. Fieldwork gets planned around the Dry. Reporting happens in the Wet.",
+  body="Remote Top End jobs fail on logistics, not science. Bell Enviro has done the compliance auditing and CEMP implementation for water and distribution upgrades in Jabiru and is set up for remote work: self-contained field kit, sample cold chain back to the Darwin labs, and the permits and inductions that Aboriginal land and Kakadu need. Fieldwork runs all year; in the Wet it's planned around access and weather windows rather than put off.",
   work=["CEMP implementation and compliance auditing for remote community infrastructure upgrades",
         "Contaminated land and fuel storage investigations at remote facilities and communities",
         "Weed hygiene and biosecurity planning for moving plant into Arnhem Land and the Tiwi Islands",
