@@ -17,7 +17,7 @@ def ld(obj): return '<script type="application/ld+json">'+json.dumps(obj, ensure
 
 ORG = {"@type":"ProfessionalService","@id":BASE+"/#org","name":"Bell Enviro","url":BASE+"/",
   "logo":BASE+"/assets/logo.png","image":BASE+"/assets/logo.png","telephone":PHONE_INTL,"email":EMAIL,
-  "description":"Environmental consultant in Darwin NT for civil contractors, developers and property owners: contaminated land, PFAS, asbestos and soil testing, CEMPs, audits, NT EPA approvals and AAPA. Principal-delivered, fixed prices.",
+  "description":"Environmental consultant in Darwin NT for civil contractors, developers and property owners: contaminated land, PFAS, asbestos and soil testing, CEMPs, audits, NT EPA approvals and AAPA sacred site certificates. Principal-delivered, fixed prices.",
   "address":{"@type":"PostalAddress","addressLocality":"Humpty Doo","addressRegion":"NT","postalCode":"0836","addressCountry":"AU"},
   "geo":{"@type":"GeoCoordinates","latitude":-12.58,"longitude":131.13},
   "areaServed":[{"@type":"City","name":"Darwin"},{"@type":"City","name":"Palmerston"},{"@type":"AdministrativeArea","name":"Litchfield Municipality"},
@@ -112,7 +112,7 @@ def home():
 <section class="hero"><div class="wrap">
  <p class="kicker">Environmental consultant · Darwin NT</p>
  <h1>Environmental compliance for NT civil contractors, developers and property owners. No headcount required.</h1>
- <p class="lead">Contaminated land, PFAS, asbestos and soil testing, CEMPs, audits, NT EPA approvals and AAPA. Fixed prices agreed up front. Reports the regulator accepts. Chris Bell does the work and signs it.</p>
+ <p class="lead">Contaminated land, PFAS, asbestos and soil testing, CEMPs, audits, NT EPA approvals and sacred site clearances (AAPA certificates). Fixed prices agreed up front. Reports the regulator accepts. Chris Bell does the work and signs it.</p>
  <p><a class="btn big" href="/contact/">Get a fixed-price quote</a> <a class="btn ghost" href="tel:{PHONE_INTL}">Call {PHONE}</a></p>
  <p class="small">Servicing <a href="/regions/darwin-palmerston-rural/">Darwin, Palmerston and the rural area</a>, the <a href="/regions/top-end/">Top End</a>, and the <a href="/regions/northern-territory-kimberley/">wider NT and Kimberley</a>.</p>
 </div></section>
