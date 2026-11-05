@@ -195,8 +195,7 @@ def guide(g):
 def about():
     ch,cl=crumbs([("Home","/"),("About","/about/")])
     person={"@context":"https://schema.org","@type":"Person","@id":BASE+"/about/#chris","name":"Chris Bell","jobTitle":"Principal Environmental Scientist","worksFor":{"@id":BASE+"/#org"},
-            "email":EMAIL,"telephone":PHONE_INTL,"url":BASE+"/about/","knowsAbout":ORG["knowsAbout"],
-            "memberOf":{"@type":"Organization","name":"Environment Institute of Australia and New Zealand"}}
+            "email":EMAIL,"telephone":PHONE_INTL,"url":BASE+"/about/","knowsAbout":ORG["knowsAbout"]}
     body=f"""{ch}
 <section class="wrap prose"><h1>About Bell Enviro and Chris Bell</h1>
 <p class="lead">Bell Enviro is Chris Bell, an environmental scientist in Humpty Doo who works as the environmental capability inside civil contractors' and developers' teams across the NT.</p>
@@ -214,7 +213,7 @@ def about():
 <li>Earlier work across Defence, aviation, oil and gas, mining, community development and cultural heritage in the NT and overseas</li>
 </ul>
 <h2>Credentials and cover</h2>
-<ul><li>Certified Environmental Practitioner (Site Contamination) application in progress with EIANZ</li><li>ISO 14001 environmental management systems auditor trained; audits to ISO 19011</li><li>Professional Indemnity and Public Liability insurance current</li><li>ICN Gateway registered</li><li>Working knowledge of Commonwealth, NT EPA, Defence, AAPA, ALRA, NLC and NTG frameworks</li></ul>
+<ul><li>Environmental professional with over 25 years' experience, most of it in the Northern Territory</li><li>ISO 14001 environmental management systems auditor trained; audits to ISO 19011</li><li>Professional Indemnity and Public Liability insurance current</li><li>ICN Gateway registered</li><li>Working knowledge of Commonwealth, NT EPA, Defence, AAPA, ALRA, NLC and NTG frameworks</li></ul>
 <h2>Partners</h2>
 <p>Bigger programs draw on a bench of field techs, drillers, archaeologists, anthropologists, ecologists and licensed asbestos assessors that Bell Enviro has worked with before, and on Darwin's NATA-accredited labs. Interstate consultancies also use Bell Enviro as their Darwin field capacity, working to their own SAQPs and templates.</p>
 </section>{cta("Not sure if Bell Enviro is the right fit? A ten-minute call usually sorts it out.")}"""
