@@ -23,7 +23,7 @@ ORG = {"@type":"ProfessionalService","@id":BASE+"/#org","name":"Bell Enviro","ur
   "areaServed":[{"@type":"City","name":"Darwin"},{"@type":"City","name":"Palmerston"},{"@type":"AdministrativeArea","name":"Litchfield Municipality"},
                 {"@type":"Place","name":"Top End, Northern Territory"},{"@type":"State","name":"Northern Territory"},{"@type":"Place","name":"Kimberley, Western Australia"}],
   "founder":{"@type":"Person","@id":BASE+"/about/#chris","name":"Chris Bell","jobTitle":"Principal Environmental Scientist"},
-  "priceRange":"$$","knowsAbout":["Contaminated land assessment","PFAS investigation","Construction environmental management plans","Environmental auditing","Environmental approvals Northern Territory","NT EPA referrals","Cultural heritage AAPA","Asbestos identification and registers","Soil and water testing"],
+  "priceRange":"$$","knowsAbout":["Contaminated land assessment","PFAS investigation","Construction environmental management plans","Environmental auditing","Environmental approvals Northern Territory","NT EPA referrals","Cultural heritage AAPA","Asbestos identification and registers","Soil and water testing","Flora and fauna surveys","ISO 14001 environmental management systems"],
   "sameAs":[]}
 
 def layout(path, title, desc, body, extra_ld=None, nav_active=None):
@@ -210,10 +210,11 @@ def about():
 <li>Extractive and quarry environmental compliance in the Darwin rural area</li>
 <li>Weed hygiene declarations, erosion and sediment control and incident reporting systems for live civil works</li>
 <li>Asbestos and hazmat surveys, registers and Class B clearances</li>
+<li>Flora and fauna surveys and wildlife management plans for clearing, Defence and civil works</li>
 <li>Earlier work across Defence, aviation, oil and gas, mining, community development and cultural heritage in the NT and overseas</li>
 </ul>
 <h2>Credentials and cover</h2>
-<ul><li>Certified Environmental Practitioner (Site Contamination) application in progress with EIANZ</li><li>Professional Indemnity and Public Liability insurance current</li><li>ICN Gateway registered</li><li>Working knowledge of Commonwealth, NT EPA, Defence, AAPA, ALRA, NLC and NTG frameworks</li></ul>
+<ul><li>Certified Environmental Practitioner (Site Contamination) application in progress with EIANZ</li><li>ISO 14001 environmental management systems auditor trained; audits to ISO 19011</li><li>Professional Indemnity and Public Liability insurance current</li><li>ICN Gateway registered</li><li>Working knowledge of Commonwealth, NT EPA, Defence, AAPA, ALRA, NLC and NTG frameworks</li></ul>
 <h2>Partners</h2>
 <p>Bigger programs draw on a bench of field techs, drillers, archaeologists, anthropologists, ecologists and licensed asbestos assessors that Bell Enviro has worked with before, and on Darwin's NATA-accredited labs. Interstate consultancies also use Bell Enviro as their Darwin field capacity, working to their own SAQPs and templates.</p>
 </section>{cta("Not sure if Bell Enviro is the right fit? A ten-minute call usually sorts it out.")}"""
