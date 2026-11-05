@@ -27,8 +27,8 @@ SERVICES = [
         ("Will the NT EPA accept the report?","Reports are prepared to the ASC NEPM and NT EPA contaminated land guidelines, which is the standard NT regulators and contaminated land auditors assess against."),
         ("How long does a PSI take in Darwin?","Typically two to three weeks from engagement, depending on title search and records turnaround. DSIs depend on laboratory turnaround, usually five to ten business days after sampling.")]),
  dict(slug="pfas-investigation", nav="PFAS",
-  title="PFAS Investigation & Management Darwin NT",
-  h1="PFAS investigation and management",
+  title="PFAS Testing & Investigation Darwin NT | Soil, Water, Defence Precincts",
+  h1="PFAS testing, investigation and management",
   desc="PFAS soil, groundwater and surface water investigations in Darwin and the NT, delivered to the PFAS National Environmental Management Plan. Sampling, waste classification and management plans for civil works.",
   intro="Per- and polyfluoroalkyl substances (PFAS) are a live issue around Darwin's airport, Defence and firefighting training precincts and legacy industrial land. Bell Enviro designs and runs PFAS investigations to the PFAS National Environmental Management Plan (NEMP), with contamination-free sampling protocols and NATA-accredited analysis.",
   bullets=["PFAS screening within PSI/DSI programs",
@@ -40,10 +40,11 @@ SERVICES = [
   pricing="Fixed price for investigation design, fieldwork and reporting; laboratory analysis at cost.",
   faqs=[("Where is PFAS a concern in the Darwin region?","PFAS investigation areas around Darwin include the airport and RAAF Base precincts and surrounding suburbs, plus other sites where firefighting foam was historically used. Any excavation in these areas may need PFAS screening before material leaves site."),
         ("Can PFAS-impacted soil be reused on site?","Often yes, under a management plan consistent with the PFAS NEMP. Off-site disposal requires classification and an approved receiving facility, which is limited in the NT, so on-site reuse is usually the practical option."),
+        ("How much does PFAS testing cost in Darwin?","Laboratory analysis for PFAS is more expensive than standard contaminant suites and samples go to specialist interstate laboratories, so a single soil or water PFAS sample is typically a few hundred dollars including sampling. Bell Enviro quotes the full program with the number of samples the NEMP requires for your purpose."),
         ("What sampling precautions are needed?","PFAS is present in many everyday materials, so sampling uses PFAS-free equipment, clothing and containers and strict decontamination. Bell Enviro's field protocols follow NEMP guidance.")]),
  dict(slug="construction-environmental-management-plan", nav="CEMPs & ESCPs",
-  title="CEMP & Erosion and Sediment Control Plans NT | Contract-Ready",
-  h1="Construction Environmental Management Plans (CEMPs) and ESCPs",
+  title="Environmental Management Plans NT | CEMPs & Erosion and Sediment Control Plans",
+  h1="Environmental management plans (CEMPs) and ESCPs",
   desc="Contract-ready CEMPs, erosion and sediment control plans, weed hygiene and dust/noise plans for NT Government, Defence and council civil works. Fixed price, fast turnaround, Darwin-based.",
   intro="A CEMP is usually a condition of contract on NT Government, Defence, council and private civil works. Bell Enviro writes CEMPs that superintendents approve first time, because they are built from the actual contract conditions, site constraints and the contractor's real methodology, not a generic template.",
   bullets=["Construction Environmental Management Plans to NTG, Defence and council specifications",
@@ -74,8 +75,8 @@ SERVICES = [
         ("How often should civil sites be inspected?","Weekly inspections are typical during earthworks and the Wet season, extending to fortnightly or monthly once the site is stabilised. Many contracts specify a frequency."),
         ("Can you fix a project's compliance records retrospectively?","Bell Enviro can reconstruct monitoring, inspection and incident records from available evidence, identify gaps honestly, and set up a system so the gaps do not recur.")]),
  dict(slug="environmental-approvals", nav="Approvals",
-  title="Environmental Approvals & Statutory Compliance NT",
-  h1="Environmental approvals and statutory compliance",
+  title="Environmental Approvals NT | NT EPA Referrals, Licences, Land Clearing Permits",
+  h1="Environmental approvals, NT EPA referrals and permits",
   desc="NT EPA referrals, environment protection licences, land clearing and water approvals, and statutory environmental compliance advice for projects in Darwin, the Top End and the NT.",
   intro="Navigating the NT Environment Protection Act 2019, the Water Act, Planning Act, Weeds Management Act and Commonwealth EPBC Act takes someone who has dealt with the regulators before. Bell Enviro scopes which approvals a project actually needs, prepares the applications and supporting assessments, and manages the conversation with the agency.",
   bullets=["Approvals pathway scoping: which Acts, which agency, how long",
@@ -134,6 +135,58 @@ SERVICES = [
   pricing="Set-up fee per project plus optional monthly maintenance. Register the interest for the hosted version via the contact page.",
   faqs=[("Is this software?","Today it is a structured system delivered in tools your site team already uses, set up and reviewed by Bell Enviro. A hosted version is in pilot; contact Bell Enviro to register interest."),
         ("Why a stockpile register?","Regulators and principals increasingly ask where every cubic metre of material came from and went. A stockpile register answers that in minutes instead of a week of searching dockets.")]),
+ dict(slug="asbestos-hazmat-darwin", nav="Asbestos & hazmat",
+  title="Asbestos Testing, Registers & Hazmat Surveys Darwin NT",
+  h1="Asbestos testing, registers and hazardous materials surveys",
+  desc="Asbestos sampling and NATA-accredited identification, asbestos registers and management plans, pre-demolition hazmat surveys and Class B clearance inspections in Darwin, Palmerston and the NT. Licensed assessors engaged for friable and Class A works.",
+  intro="Most buildings in Darwin built before 1990, and much of the post-Cyclone Tracy rebuild, contain asbestos. Before you renovate, demolish, excavate near old building slabs or buy a commercial property, you need to know what is there. Bell Enviro provides asbestos identification sampling with NATA-accredited laboratory analysis, asbestos registers and management plans that satisfy NT Work Health and Safety requirements, and pre-demolition hazardous materials surveys. Non-friable (Class B) works are handled directly; for friable asbestos and Class A removals Bell Enviro brings in a licensed asbestos assessor or occupational hygienist and manages the job end to end.",
+  bullets=["Asbestos identification: sampling of suspect materials with NATA-accredited laboratory analysis and written results",
+           "Asbestos registers and asbestos management plans for workplaces, as required under the NT Work Health and Safety (National Uniform Legislation) Regulations",
+           "Pre-demolition and pre-refurbishment hazardous materials surveys: asbestos, lead paint, synthetic mineral fibre, PCBs, ozone-depleting substances",
+           "Asbestos in soil: assessment, sampling and waste classification for civil works and contaminated land investigations",
+           "Clearance inspections and certificates for non-friable (Class B) removal works",
+           "Coordination of licensed asbestos assessors and occupational hygienists for friable (Class A) removals, air monitoring and clearance",
+           "Removal contractor scoping, specification and supervision"],
+  who="Home renovators and property buyers in Darwin and Palmerston, builders and demolition contractors, body corporates and commercial property managers needing a register, and civil contractors who have struck asbestos fragments in fill.",
+  pricing="Fixed price for identification sampling (per sample, laboratory included) and for registers and surveys scoped by building size. Clearance inspections at a fixed rate per inspection.",
+  faqs=[("How much does asbestos testing cost in Darwin?","Identification of a single suspect material, including NATA laboratory analysis and a written result, is a fixed per-sample price; a typical house inspection with several samples is quoted as a package. Contact Bell Enviro for current rates."),
+        ("How long do asbestos results take?","Laboratory identification is usually two to three business days from receipt, with same-day or next-day options available at additional cost for urgent demolition or incident situations."),
+        ("Do I legally need an asbestos register?","Yes for any workplace building constructed before 31 December 2003 where asbestos is or may be present. For homes a register is not mandatory but is strongly recommended before any renovation and is often required by builders before they will quote."),
+        ("Who can do a clearance inspection in the NT?","Non-friable (Class B) removal clearances can be done by a competent person independent of the removalist. Friable (Class A) removals require a licensed asbestos assessor. Bell Enviro does the former directly and engages a licensed assessor for the latter."),
+        ("What if asbestos is found in soil on a civil site?","Stop work in that area and get it assessed. Bell Enviro samples and classifies the material, advises on management or disposal under the ASC NEPM and NT EPA requirements, and documents the clearance so works can resume.")]),
+ dict(slug="soil-testing-darwin", nav="Soil testing",
+  title="Soil Testing Darwin NT | Contamination, Waste Classification, PFAS",
+  h1="Soil testing in Darwin and the Top End",
+  desc="Soil testing and sampling in Darwin, Palmerston and the rural area: contamination screening, waste classification for fill and excavated material, PFAS, acid sulfate soils and asbestos in soil. NATA-accredited laboratories, interpreted results.",
+  intro="Soil testing is only useful if the right analytes are chosen, the samples are collected properly and someone interprets the numbers against the correct criteria. Bell Enviro designs the sampling, collects it, uses NATA-accredited laboratories in Darwin and interstate, and tells you what the results mean for your site, your waste disposal docket or your development application.",
+  bullets=["Contamination screening for property purchase, development applications and rezoning",
+           "Waste classification of fill, excavated material and stockpiles for off-site disposal or reuse",
+           "PFAS soil testing to PFAS NEMP protocols",
+           "Acid sulfate soil testing (field pH and laboratory chromium-reducible sulfur)",
+           "Asbestos in soil screening and quantification",
+           "Hydrocarbon, heavy metal, pesticide and nutrient analysis with interpretation against ASC NEPM and NT EPA criteria",
+           "Agricultural and horticultural soil testing arranged on request"],
+  who="Landowners and buyers in Darwin, Palmerston and the Litchfield rural area, builders and civil contractors needing to classify material, and project managers responding to unexpected finds on site.",
+  pricing="Fixed price per sampling visit plus laboratory analysis at cost, with the analysis suite agreed before sampling so there are no surprises.",
+  faqs=[("How much does soil testing cost in Darwin?","A basic contamination screen of one sample for metals and hydrocarbons is in the low hundreds of dollars including laboratory fees; a waste classification program for a stockpile depends on volume, as NEPM and NT EPA require a minimum number of samples per cubic metre. Bell Enviro quotes the full program up front."),
+        ("Can I collect the samples myself?","You can, but laboratories and regulators will only rely on results where the sampling method, containers and chain of custody are documented, and incorrectly collected samples are the most common reason results get rejected. Bell Enviro's sampling visit is usually cheaper than re-doing it."),
+        ("Which laboratory do you use?","NATA-accredited laboratories with Darwin receipt facilities for standard suites, and specialist interstate laboratories for PFAS and asbestos quantification. Results are reported with the laboratory certificate attached.")]),
+ dict(slug="water-testing-darwin", nav="Water testing",
+  title="Water Testing Darwin NT | Bore Water, Surface Water, Dewatering & Discharge",
+  h1="Bore water, surface water and discharge testing in Darwin",
+  desc="Bore water, surface water, groundwater, dewatering and discharge sampling in Darwin, Palmerston and the rural area, with NATA-accredited analysis and interpreted results against drinking water, irrigation and NT EPA criteria.",
+  intro="Rural area households rely on bores, civil sites discharge dewatering water, and approvals require monitoring of creeks and drains. Bell Enviro samples bores, surface water and groundwater wells using proper purging, field parameters and chain of custody, and reports the results against the criteria that matter: Australian Drinking Water Guidelines for households, ANZG water quality guidelines and licence limits for discharges.",
+  bullets=["Bore water testing for drinking, stock and irrigation suitability in the Darwin rural area",
+           "Groundwater monitoring well sampling for contaminated land and PFAS investigations",
+           "Dewatering and construction discharge sampling against NT EPA and licence criteria",
+           "Surface water and sediment monitoring for CEMPs and approvals",
+           "Field parameters: pH, electrical conductivity, dissolved oxygen, turbidity",
+           "Interpretation and plain-English reporting"],
+  who="Rural area homeowners and buyers on bore water, civil contractors with dewatering or discharge conditions, and developers with water quality monitoring obligations.",
+  pricing="Fixed price per sampling visit plus laboratory analysis at cost. Monitoring programs priced per round.",
+  faqs=[("How much is bore water testing in Darwin?","A standard household potability suite (microbiology, metals, major ions, nitrate) including sampling and laboratory analysis is a fixed package; contact Bell Enviro for the current price. Results are reported against the Australian Drinking Water Guidelines."),
+        ("How often should I test my bore?","Annually for microbiology at minimum, and after any flooding, works near the bore or change in taste or colour. A full chemistry suite every few years or when buying a property."),
+        ("Can you test dewatering water before we discharge it?","Yes. Bell Enviro samples and gets rapid turnaround on the parameters in your discharge condition, and can set up the ongoing monitoring program the condition requires.")]),
 ]
 
 REGIONS = [
@@ -214,6 +267,46 @@ GUIDES = [
 <p>Mobilising plant to Arnhem Land, the Tiwi Islands, Kakadu, Groote Eylandt and pastoral properties often requires declarations and inspections before the barge or at the property boundary. Gamba grass, mission grass and mimosa are the high-profile risks in the Top End; the Kimberley adds its own declared species.</p>
 <h2>Setting it up</h2>
 <p>A workable procedure needs a declaration form, a wash-down location and method, an inspection checklist, a register of declarations, and a toolbox talk so operators know why it matters. Bell Enviro provides these as part of CEMPs and can conduct pre-mobilisation inspections. See <a href="/services/construction-environmental-management-plan/">CEMPs and ESCPs</a>.</p>"""),
+ dict(slug="nt-epa-referral", title="NT EPA referral: when a project needs one and how the process works",
+  desc="When a project must be referred to the NT Environment Protection Authority under the Environment Protection Act 2019, how the pre-referral screening tool works, what a referral contains and how long assessment takes.",
+  body="""<p>Under the NT Environment Protection Act 2019, a proponent must refer a proposed action to the NT EPA if it has the potential to have a significant impact on the environment. Referral is a decision the proponent makes, which is why so many projects get it wrong in both directions: referring when it is not needed and losing months, or not referring and discovering the problem at the approvals stage.</p>
+<h2>Does your project need to be referred?</h2>
+<ul><li>Start with the NT EPA pre-referral screening tool and the Environmental Factors and Objectives guideline. Both are published on the NT EPA website.</li><li>Projects that commonly need referral: new or expanded extractive operations, large-scale land clearing, industrial facilities with significant discharges, major infrastructure in sensitive areas, and anything already flagged by another approval pathway (for example a mining authorisation or a water licence).</li><li>Projects that commonly do not: routine civil works within existing corridors, maintenance, subdivision earthworks already covered by a development permit, and small clearing within the permit thresholds.</li></ul>
+<h2>What a referral contains</h2>
+<p>A referral describes the proposal, the receiving environment, the potential impacts against each of the NT EPA's environmental factors, and the proposed management measures. The quality of the referral determines whether the EPA decides no further assessment is required, which is the outcome most proponents want.</p>
+<h2>Timing</h2>
+<p>The EPA has a statutory period of around four to six weeks to decide on a referral once it is accepted as complete. If assessment is required, the process runs many months. Allow for both scenarios in the program.</p>
+<p>Bell Enviro scopes whether referral is needed, prepares referrals and liaises with the NT EPA. See <a href="/services/environmental-approvals/">environmental approvals</a>.</p>"""),
+ dict(slug="land-clearing-permit-nt", title="Land clearing permits in the NT: when you need one and how to apply",
+  desc="When native vegetation clearing in the Northern Territory needs a permit under the Planning Act, what the Land Clearing Guidelines require, exemptions, and how to prepare an application that gets approved.",
+  body="""<p>Clearing native vegetation in the Northern Territory generally requires a permit from the Development Consent Authority under the Planning Act 1999 and the NT Planning Scheme, assessed against the NT Land Clearing Guidelines. On pastoral land, a separate pastoral land clearing process applies through the Pastoral Land Board.</p>
+<h2>When a permit is needed</h2>
+<ul><li>Clearing more than the exempt threshold on a freehold lot (the threshold depends on the zone; in the rural area it is small).</li><li>Clearing within buffers of watercourses, wetlands, sensitive vegetation such as rainforest and monsoon vine thicket, or habitat of threatened species.</li><li>Clearing for subdivision, horticulture, industrial development or new roads and tracks.</li></ul>
+<h2>Exemptions that commonly apply</h2>
+<p>Fire breaks of prescribed width, fence lines, clearing within a defined distance of a dwelling, and maintenance of previously cleared land. Exemptions are specific; confirm them against the current guidelines before relying on one.</p>
+<h2>What an application needs</h2>
+<ul><li>A clearing plan on aerial imagery showing the area, retained vegetation and buffers.</li><li>A vegetation and habitat description, including threatened species and sensitive vegetation checks.</li><li>Erosion and sediment control, weed management and drainage measures.</li><li>Justification for the extent of clearing and consideration of alternatives.</li></ul>
+<p>Bell Enviro prepares clearing applications and the supporting environmental information, and can bundle the AAPA, weed and erosion requirements that usually come with them. See <a href="/services/environmental-approvals/">environmental approvals</a>.</p>"""),
+ dict(slug="aapa-certificate-nt", title="AAPA Authority Certificates: what they are, when you need one and how long they take",
+  desc="How Aboriginal Areas Protection Authority (AAPA) Authority Certificates work in the Northern Territory, why most government and Defence contracts require one, the application process, cost and timing.",
+  body="""<p>An Authority Certificate issued by the Aboriginal Areas Protection Authority (AAPA) under the Northern Territory Aboriginal Sacred Sites Act 1989 sets out the conditions under which works can proceed without damaging or interfering with sacred sites. It is the only legal defence against prosecution under the Act, which applies everywhere in the Territory, on any land tenure, whether or not a site is registered.</p>
+<h2>When you need one</h2>
+<ul><li>Most NT Government, Defence, land council and major private contracts require a current Authority Certificate before ground disturbance.</li><li>Any project on Aboriginal land, near a registered or recorded sacred site, or in a greenfield area.</li><li>Prudent for any project where the cost of a stop-work order would be significant.</li></ul>
+<h2>The process</h2>
+<ol><li>Lodge an application with AAPA describing the works and the exact area, with a map and the proposed activities.</li><li>AAPA consults with the relevant custodians, which may involve a field survey.</li><li>AAPA issues the certificate with conditions, which can include restricted work areas, buffers and reporting requirements.</li></ol>
+<h2>Timing and cost</h2>
+<p>Allow several months. AAPA charges a fee based on the size and complexity of the area; consultation and surveys add to the time and cost on remote projects. Applying early, with a clear and accurately mapped scope, is the single biggest factor in a fast outcome.</p>
+<p>Bell Enviro prepares and manages AAPA applications and heritage due diligence for civil contractors and developers. See <a href="/services/cultural-heritage-aapa/">cultural heritage and AAPA coordination</a>.</p>"""),
+ dict(slug="gamba-grass-management-plan", title="Gamba grass and weed management plans for Darwin rural properties and civil sites",
+  desc="Gamba grass obligations for landholders and contractors in the Darwin region, what a weed management plan under the NT Weeds Management Act must contain, and how to meet the requirements practically.",
+  body="""<p>Gamba grass (Andropogon gayanus) is a Class A/C declared weed in the Northern Territory with a statutory Weed Management Plan that imposes obligations on every landholder in the declared zone, which covers the Darwin, Palmerston, Litchfield and Coomalie areas. It fuels fires up to eight times more intense than native grass fires and is the main driver of the Top End's worsening fire seasons.</p>
+<h2>Landholder obligations</h2>
+<ul><li>Prevent spread: no moving gamba seed or plants, including in soil, hay, mulch or on vehicles and machinery.</li><li>Control gamba on your property, with specific requirements for a cleared buffer around buildings and boundaries in the eradication and management zones.</li><li>Keep records of control where a plan requires them.</li></ul>
+<h2>What this means for civil contractors</h2>
+<p>Plant mobilising from gamba-affected sites must be cleaned, and most NT Government and council contracts require weed hygiene declarations and a weed management section in the CEMP. Topsoil and fill from the Darwin rural area is a known pathway for spreading gamba and mission grass onto new sites and into remote communities.</p>
+<h2>What a property or project weed management plan contains</h2>
+<ul><li>A map of infestations by species and density.</li><li>Priorities: new outbreaks first, then containment of established areas, then buffers.</li><li>Control methods and timing: spraying at the right growth stage (early Wet), slashing before seed set, and follow-up.</li><li>Hygiene procedures for vehicles, machinery and materials.</li><li>A monitoring and record schedule.</li></ul>
+<p>Bell Enviro prepares weed management plans for rural properties, developments and civil projects, and provides weed hygiene procedures and inspections. See <a href="/services/construction-environmental-management-plan/">CEMPs and ESCPs</a>.</p>"""),
 ]
 
 # ---------------------------------------------------------------- helpers
@@ -229,7 +322,7 @@ ORG = {"@type":"ProfessionalService","@id":BASE+"/#org","name":"Bell Enviro","ur
   "areaServed":[{"@type":"City","name":"Darwin"},{"@type":"City","name":"Palmerston"},{"@type":"AdministrativeArea","name":"Litchfield Municipality"},
                 {"@type":"Place","name":"Top End, Northern Territory"},{"@type":"State","name":"Northern Territory"},{"@type":"Place","name":"Kimberley, Western Australia"}],
   "founder":{"@type":"Person","@id":BASE+"/about/#chris","name":"Chris Bell","jobTitle":"Principal Environmental Scientist"},
-  "priceRange":"$$","knowsAbout":["Contaminated land assessment","PFAS investigation","Construction environmental management plans","Environmental auditing","Environmental approvals Northern Territory","Cultural heritage AAPA"],
+  "priceRange":"$$","knowsAbout":["Contaminated land assessment","PFAS investigation","Construction environmental management plans","Environmental auditing","Environmental approvals Northern Territory","NT EPA referrals","Cultural heritage AAPA","Asbestos identification and registers","Soil and water testing"],
   "sameAs":[]}
 
 def layout(path, title, desc, body, extra_ld=None, nav_active=None):
@@ -311,14 +404,14 @@ def write(path, content):
 pages = []  # (path, priority)
 
 def home():
-    cards = "".join(f'<a class="card" href="/services/{s["slug"]}/"><h3>{esc(s["h1"].split(" — ")[0].split(" (")[0])}</h3><p>{esc(s["desc"].split(". ")[0])}.</p></a>' for s in SERVICES[:7])
+    cards = "".join(f'<a class="card" href="/services/{s["slug"]}/"><h3>{esc(s["h1"].split(" — ")[0].split(" (")[0])}</h3><p>{esc(s["desc"].split(". ")[0])}.</p></a>' for s in SERVICES)
     regs = "".join(f'<a class="card" href="/regions/{r["slug"]}/"><h3>{esc(r["nav"])}</h3><p>{esc(r["places"].split(",")[0])} and surrounds</p></a>' for r in REGIONS)
     guides = "".join(f'<li><a href="/guides/{g["slug"]}/">{esc(g["title"])}</a></li>' for g in GUIDES)
     body = f"""
 <section class="hero"><div class="wrap">
  <p class="kicker">Environmental consultant · Darwin NT</p>
  <h1>Environmental compliance for NT civil contractors and developers, without the headcount.</h1>
- <p class="lead">Contaminated land and PFAS investigations, CEMPs, environmental audits, approvals and cultural heritage coordination. Fixed prices. Documents regulators accept. Delivered and signed off by the principal, Chris Bell.</p>
+ <p class="lead">Contaminated land, PFAS, asbestos and soil testing, CEMPs, environmental audits, NT EPA approvals and cultural heritage coordination. Fixed prices. Documents regulators accept. Delivered and signed off by the principal, Chris Bell.</p>
  <p><a class="btn big" href="/contact/">Get a fixed-price quote</a> <a class="btn ghost" href="tel:{PHONE_INTL}">Call {PHONE}</a></p>
  <p class="small">Servicing <a href="/regions/darwin-palmerston-rural/">Darwin, Palmerston and the rural area</a>, the <a href="/regions/top-end/">Top End</a>, and the <a href="/regions/northern-territory-kimberley/">wider NT and Kimberley</a>.</p>
 </div></section>
@@ -334,8 +427,8 @@ def home():
 <section class="wrap"><h2>Guides</h2><ul class="list">{guides}</ul></section>
 {cta("Tell Chris what the contract or the site needs and get a scoped price back, usually within two business days.")}
 """
-    write("/", layout("/", "Environmental Consultant Darwin NT | Contaminated Land, PFAS, CEMPs, Audits | Bell Enviro",
-        "Darwin-based environmental consultant for NT civil contractors and developers. Contaminated land and PFAS investigations, CEMPs, environmental audits, approvals and AAPA coordination. Fixed prices, principal-delivered.", body))
+    write("/", layout("/", "Environmental Consultants Darwin NT | Contaminated Land, PFAS, Asbestos, CEMPs | Bell Enviro",
+        "Darwin environmental consultants for civil contractors, developers and property owners. Contaminated land, PFAS, asbestos and soil testing, CEMPs, environmental audits, NT EPA approvals and AAPA coordination. Fixed prices, principal-delivered.", body))
     pages.append(("/",1.0))
 
 def services_index():
