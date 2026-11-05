@@ -19,7 +19,7 @@ section,article{padding:30px 0}
 .top{background:#fff;border-bottom:4px solid var(--green);position:sticky;top:0;z-index:10}
 .bar{display:flex;align-items:center;justify-content:space-between;height:72px}
 .logo{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:'Arkitech Round',sans-serif;font-size:1.5rem;letter-spacing:.08em;text-transform:uppercase}
-.logo b{color:var(--blue);font-weight:300}.logo i{color:var(--green);font-style:normal;font-weight:300}
+.logo b{color:var(--blue);font-weight:700;-webkit-text-stroke:.6px currentColor}.logo i{color:var(--green);font-style:normal;font-weight:700;-webkit-text-stroke:.6px currentColor}
 nav ul{list-style:none;display:flex;gap:4px;align-items:center}
 nav li{position:relative}
 nav a{display:block;padding:10px 12px;text-decoration:none;font-weight:600;color:var(--dark);border-radius:6px}
