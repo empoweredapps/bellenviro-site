@@ -1,3 +1,4 @@
+@font-face{font-family:'Arkitech Round';src:url('/assets/arkitech-round-light.woff2') format('woff2');font-weight:300;font-display:swap}
 :root{--blue:#29ABE2;--green:#39B54A;--orange:#F7941D;--dark:#1F5C45;--ink:#232a26;--mute:#4f5a55;--bg:#fafcfb;--line:#dfe8e3;--alt:#f1f8f4}
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -17,8 +18,8 @@ section,article{padding:30px 0}
 /* header */
 .top{background:#fff;border-bottom:4px solid var(--green);position:sticky;top:0;z-index:10}
 .bar{display:flex;align-items:center;justify-content:space-between;height:72px}
-.logo{display:flex;align-items:center;gap:10px;text-decoration:none;font-size:1.25rem;letter-spacing:.06em}
-.logo b{color:var(--blue)}.logo i{color:var(--green);font-style:normal;font-weight:700}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:'Arkitech Round',sans-serif;font-size:1.5rem;letter-spacing:.08em;text-transform:uppercase}
+.logo b{color:var(--blue);font-weight:300}.logo i{color:var(--green);font-style:normal;font-weight:300}
 nav ul{list-style:none;display:flex;gap:4px;align-items:center}
 nav li{position:relative}
 nav a{display:block;padding:10px 12px;text-decoration:none;font-weight:600;color:var(--dark);border-radius:6px}
