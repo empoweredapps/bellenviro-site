@@ -23,7 +23,7 @@ ORG = {"@type":"ProfessionalService","@id":BASE+"/#org","name":"Bell Enviro","ur
   "areaServed":[{"@type":"City","name":"Darwin"},{"@type":"City","name":"Palmerston"},{"@type":"AdministrativeArea","name":"Litchfield Municipality"},
                 {"@type":"Place","name":"Top End, Northern Territory"},{"@type":"State","name":"Northern Territory"},{"@type":"Place","name":"Kimberley, Western Australia"}],
   "founder":{"@type":"Person","@id":BASE+"/about/#chris","name":"Chris Bell","jobTitle":"Principal Environmental Scientist"},
-  "priceRange":"$$","knowsAbout":["Contaminated land assessment","PFAS investigation","Construction environmental management plans","Environmental auditing","Environmental approvals Northern Territory","NT EPA referrals","Cultural heritage AAPA","Asbestos identification and registers","Soil and water testing","Flora and fauna surveys","ISO 14001 environmental management systems"],
+  "priceRange":"$$","knowsAbout":["Contaminated land assessment","Contaminated land auditing","PFAS investigation","Construction environmental management plans","Environmental auditing","Environmental approvals Northern Territory","NT EPA referrals","Cultural heritage AAPA","Asbestos identification and registers","Soil and water testing","Flora and fauna surveys","ISO 14001 environmental management systems"],
   "sameAs":[]}
 
 def layout(path, title, desc, body, extra_ld=None, nav_active=None):
@@ -215,7 +215,7 @@ def about():
 <h2>Credentials and cover</h2>
 <ul><li>Environmental professional with over 25 years' experience, most of it in the Northern Territory</li><li>ISO 14001 environmental management systems auditor trained; audits to ISO 19011</li><li>Professional Indemnity and Public Liability insurance current</li><li>ICN Gateway registered</li><li>Working knowledge of Commonwealth, NT EPA, Defence, AAPA, ALRA, NLC and NTG frameworks</li></ul>
 <h2>Partners</h2>
-<p>Bigger programs draw on a bench of field techs, drillers, archaeologists, anthropologists, ecologists and licensed asbestos assessors that Bell Enviro has worked with before, and on Darwin's NATA-accredited labs. Interstate consultancies also use Bell Enviro as their Darwin field capacity, working to their own SAQPs and templates.</p>
+<p>Bell Enviro has a standing arrangement with an accredited contaminated land auditor, so investigations that need an independent site audit can be run through to the audit statement under one engagement. Bigger programs draw on a bench of field techs, drillers, archaeologists, anthropologists, ecologists and licensed asbestos assessors that Bell Enviro has worked with before, and on Darwin's NATA-accredited labs. Interstate consultancies also use Bell Enviro as their Darwin field capacity, working to their own SAQPs and templates.</p>
 </section>{cta("Not sure if Bell Enviro is the right fit? A ten-minute call usually sorts it out.")}"""
     write("/about/", layout("/about/","About Chris Bell | Principal Environmental Scientist, Darwin NT","Chris Bell is a Darwin-based environmental scientist delivering contaminated land, PFAS, CEMP, audit and approvals work for NT civil contractors and developers through Bell Enviro.", body,[cl,person]))
     pages.append(("/about/",0.6))
